@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -11,9 +11,17 @@
   <h3>Alvorlige konsekvenser</h3>
 
   <p>
-    Underernæring er en betegnelse på en situasjon der mangel på energi, protein og/eller andre næringsstoffer gir negativ effekt på kroppen eller funksjonsevnene. Underernæring medfører alvorlige konsekvenser for pasienten. Tilstanden medfører redusert livskvalitet, ofte depresjon og motløshet. I tillegg svekkede muskler, dårligere balanse og redusert immunforsvar. Dette medfører forlenget rekonvalesenstid etter sykdom og økt dødelighet.
+    Underernæring er en betegnelse på en situasjon der mangel på energi, protein og/eller andre næringsstoffer gir negativ effekt på kroppen eller funksjonsevnene.<br><br>
+     Underernæring medfører alvorlige konsekvenser for pasienten. Tilstanden medfører redusert livskvalitet, ofte depresjon og motløshet. I tillegg svekkede muskler, dårligere balanse og redusert immunforsvar. Dette medfører forlenget rekonvalesenstid etter sykdom og økt dødelighet.
+    <br>
   </p>
 
   <img src="https://e-laering.ihelse.net/kurs/underernaering/bilde/negativ-utvikling-graf.gif">
-  <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+  </ion-toolbar>
+</ion-footer>

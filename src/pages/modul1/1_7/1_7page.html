@@ -1,19 +1,29 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Måltidsmiljø</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <h3>Måltidsmiljø</h3>
 
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+    Er pasienten ensom hjemme under måltidet, kan det være behov for at noen er hos pasienten under måltidene, eller du må vurdere om det er behov for dagsentertilbud noen dager i uken.<br><br>
+
+På et sykehjem kan det være mange inntrykk og forstyrrende elementer i spisesalen som påvirker matinntaket: <br>
+mange rundt bordet, høye lyder eller unødvendige gjenstander på bordet.<br><br>
+ Vurder behovet for å skjerme beboeren slik at det blir lettere å konsentrere seg om maten<br>
   </p>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
-  <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+  <img src="https://e-laering.ihelse.net/kurs/underernaering/bilde/ernaringstrapp-maltidsmiljo.jpg">
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+  </ion-toolbar>
+</ion-footer>

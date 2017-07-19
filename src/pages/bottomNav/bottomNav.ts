@@ -8,7 +8,6 @@ import { HomePage } from '../home/home';
   inputs: ['prev','next'],
   template:
   `
-  <br><br>
   <ion-row width-100>
     <ion-col center text-center width-50>
 

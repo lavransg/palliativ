@@ -10,6 +10,7 @@ import { Page1_2 } from '../1_2/1_2Page';
 export class Page1_1 {
 
   next: any;
+  prev: any;
 
   constructor(public navCtrl: NavController) {
     this.next = Page1_2

@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -11,17 +11,25 @@
   <h3>Underliggende faktorer</h3>
 
   <p>
-Når screeningen viser underernæring eller risiko for underernæring skal vi lage en ernæringsplan for pasienten. Vi følger ernæringstrappen trinnvis for å avdekke pasientens behov. Det første trinnet er å se etter underliggende faktorer som påvirker ernæringsstatusen.
+Når screeningen viser underernæring eller risiko for underernæring skal vi lage en ernæringsplan for pasienten. 
+Vi følger ernæringstrappen trinnvis for å avdekke pasientens behov. 
+Det første trinnet er å se etter underliggende faktorer som påvirker ernæringsstatusen.<br><br>
 
-Er det noe i den sosiale settingen som er endret den siste tiden?
-Har pasienten begynt på nye medisiner?
-Sykdom i utvikling
-Har noe spesielt hendt den siste tiden?
-Det vil være naturlig å oppsøke fastlege for undersøkelse av mulig sykdomsutbrudd eller medikamentpåvirkning før man setter i gang ytterligere tiltak i tråd med ernæringstrappen.
+Er det noe i den sosiale settingen som er endret den siste tiden?<br>
+Har pasienten begynt på nye medisiner?<br><br>
+Sykdom i utvikling<br>
+Har noe spesielt hendt den siste tiden?<br>
+Det vil være naturlig å oppsøke fastlege for undersøkelse av mulig sykdomsutbrudd eller medikamentpåvirkning før man setter i gang ytterligere tiltak i tråd med ernæringstrappen.<br><br>
 
-Det vil ikke ha noen varig effekt å endre mattilbudet om pasienten er i ferd med å bli syk eller er ensom.
+Det vil ikke ha noen varig effekt å endre mattilbudet om pasienten er i ferd med å bli syk eller er ensom.<br>
   </p>
 
   <img src="https://e-laering.ihelse.net/kurs/underernaering/bilde/ernaringstrapp-underliggende.jpg">
-  <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+  </ion-toolbar>
+</ion-footer>

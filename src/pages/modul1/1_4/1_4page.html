@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -11,15 +11,21 @@
   <h3>Årsak</h3>
 
   <p>
-    Annen sykdom er den viktigste årsaken til vekttap og underernæring. Ved betennelse, akutt sykdom og skade og etter kirurgiske inngrep er energi- og protein behovet økt. Dersom pasienter ikke klarer å spise nok til å dekke det økte behovet, vil kroppen tære på reservene. Det økte proteinbehovet medfører at kroppen tærer mer på muskelmassen enn fettvevet. Underernæring er konsekvens av tapt muskelmasse.
+    Annen sykdom er den viktigste årsaken til vekttap og underernæring. Ved betennelse, akutt sykdom og skade og etter kirurgiske inngrep er energi- og protein behovet økt. Dersom pasienter ikke klarer å spise nok til å dekke det økte behovet, vil kroppen tære på reservene. Det økte proteinbehovet medfører at kroppen tærer mer på muskelmassen enn fettvevet. Underernæring er konsekvens av tapt muskelmasse.<br><br>
 
-Pasienter/brukere som spiser lite over tid kan utvikle underernæring.
+Pasienter/brukere som spiser lite over tid kan utvikle underernæring.<br><br>
 
 Pasienter med demens, funksjonshemninger, rusproblemer og kroniske lidelser som kreft, leddgikt, osteoporose og hjerte- og lungesykdom er særlig utsatt. 
-I tillegg har eldre og enslige samt psykiatriske langtidspasienter høyere risiko for underernæring.
-  </p>
+I tillegg har eldre og enslige samt psykiatriske langtidspasienter høyere risiko for underernæring.<br>
+  </p> 
 
   <img src="https://e-laering.ihelse.net/kurs/underernaering/bilde/i-seng-med-beinbrudd.gif">
-  <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <bottom-nav [next]="next" [prev]="prev"></bottom-nav>
+  </ion-toolbar>
+</ion-footer>
 
