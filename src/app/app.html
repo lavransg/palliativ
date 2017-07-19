@@ -6,11 +6,111 @@
   </ion-header>
 
   <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
-    </ion-list>
+
+        <div ion-item menuClose icon-left id="modul1" (click)="goHome()">
+           <h3><ion-icon name="home"></ion-icon> HJEM</h3>
+        </div>
+        <!-- modul 1 -->
+        <div ion-item id="modul1" (click)="toggleSubMenu('modul1')">
+           <h3><b>01</b>  KOM I GANG</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu1" [hidden]="toggleMenu1">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul1" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+        <!-- modul 2 -->
+        <div ion-item text-wrap id="modul2" (click)="toggleSubMenu('modul2')">
+           <h3><b>02</b>  MATTILBUD</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0;" id="subMenu2" [hidden]="toggleMenu2">       
+          <button style="background-color:whitesmoke; " menuClose text-wrap *ngFor="let p of modul2" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>       
+        </ion-list>
+         <!-- modul 3 -->
+        <div ion-item text-wrap id="modul3" (click)="toggleSubMenu('modul3')">
+           <h3><b>03</b>  KARTLEGGING</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu3" [hidden]="toggleMenu3">   
+          <button style="background-color:whitesmoke; " menuClose text-wrap *ngFor="let p of modul3" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>   
+        </ion-list>
+         <!-- modul 4 -->
+        <div   ion-item  text-wrap id="modul4" (click)="toggleSubMenu('modul4')">
+           <h3><b>04</b>  LAGE ERNÆRINGSPLAN</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu4" [hidden]="toggleMenu4">
+          <button style="background-color:whitesmoke;  " menuClose text-wrap *ngFor="let p of modul4" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 5 -->
+        <div   ion-item text-wrap id="modul5" (click)="toggleSubMenu('modul5')">
+           <h3><b>05</b>  TILTAK VED LITE MATINNTAK</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu5" [hidden]="toggleMenu5">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul5" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 6 -->
+        <div   ion-item text-wrap id="modul6" (click)="toggleSubMenu('modul6')">
+           <h3><b>06</b>  SONDEERNÆRING</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu6" [hidden]="toggleMenu6">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul6" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 7 -->
+        <div   ion-item text-wrap id="modul7" (click)="toggleSubMenu('modul7')">
+           <h3><b>07</b>  OPPFØLGING AV PASIENTER</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu7" [hidden]="toggleMenu7">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul7" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 8 -->
+        <div   ion-item text-wrap id="modul8" (click)="toggleSubMenu('modul8')">
+           <h3><b>08</b>  DOKUMENTASJON</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu8" [hidden]="toggleMenu8">
+          <button style="background-color:whitesmoke; " menuClose text-wrap *ngFor="let p of modul8" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 9 -->
+        <div   ion-item text-wrap id="modul9" (click)="toggleSubMenu('modul9')">
+           <h3><b>09</b>  PALLIASJON</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu9" [hidden]="toggleMenu9">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul9" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+         <!-- modul 10 -->
+        <div   ion-item text-wrap id="modul10" (click)="toggleSubMenu('modul10')">
+           <h3><b>10</b>  AVSLUTNING</h3>
+        </div>
+        <!-- submenu -->
+        <ion-list style="margin-bottom:0" id="subMenu10" [hidden]="toggleMenu10">
+          <button style="background-color:whitesmoke;" menuClose text-wrap *ngFor="let p of modul10" (click)="openPage(p)" ion-item>
+            <h3>{{p.title}}</h3>
+          </button>
+        </ion-list>
+
   </ion-content>
 
 </ion-menu>
