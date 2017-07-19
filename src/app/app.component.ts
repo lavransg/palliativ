@@ -114,7 +114,7 @@ import { BottomNav } from '../pages/bottomNav/bottomNav';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  public rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
   modul1: Array<{title: string, component: any}>;
