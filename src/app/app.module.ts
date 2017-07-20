@@ -26,6 +26,14 @@ import {Page2_6} from '../pages/modul2/2_6/2_6Page';
 import {Page2_7} from '../pages/modul2/2_7/2_7Page';
 import {Page2_8} from '../pages/modul2/2_8/2_8Page';
 import {Page2_9} from '../pages/modul2/2_9/2_9Page';
+import {Page2_10} from '../pages/modul2/2_10/2_10Page';
+import {Page2_11} from '../pages/modul2/2_11/2_11Page';
+import {Page2_12} from '../pages/modul2/2_12/2_12Page';
+import {Page2_13} from '../pages/modul2/2_13/2_13Page';
+import {Page2_14} from '../pages/modul2/2_14/2_14Page';
+import {Page2_15} from '../pages/modul2/2_15/2_15Page';
+import {Page2_16} from '../pages/modul2/2_16/2_16Page';
+import {Page2_17} from '../pages/modul2/2_17/2_17Page';
 
 import {Page3_1} from '../pages/modul3/3_1/3_1Page';
 import {Page3_2} from '../pages/modul3/3_2/3_2Page';
@@ -36,6 +44,11 @@ import {Page3_6} from '../pages/modul3/3_6/3_6Page';
 import {Page3_7} from '../pages/modul3/3_7/3_7Page';
 import {Page3_8} from '../pages/modul3/3_8/3_8Page';
 import {Page3_9} from '../pages/modul3/3_9/3_9Page';
+import {Page3_10} from '../pages/modul3/3_10/3_10Page';
+import {Page3_11} from '../pages/modul3/3_11/3_11Page';
+import {Page3_12} from '../pages/modul3/3_12/3_12Page';
+import {Page3_13} from '../pages/modul3/3_13/3_13Page';
+import {Page3_14} from '../pages/modul3/3_14/3_14Page';
 
 import {Page4_1} from '../pages/modul4/4_1/4_1Page';
 import {Page4_2} from '../pages/modul4/4_2/4_2Page';
@@ -46,6 +59,13 @@ import {Page4_6} from '../pages/modul4/4_6/4_6Page';
 import {Page4_7} from '../pages/modul4/4_7/4_7Page';
 import {Page4_8} from '../pages/modul4/4_8/4_8Page';
 import {Page4_9} from '../pages/modul4/4_9/4_9Page';
+import {Page4_10} from '../pages/modul4/4_10/4_10Page';
+import {Page4_11} from '../pages/modul4/4_11/4_11Page';
+import {Page4_12} from '../pages/modul4/4_12/4_12Page';
+import {Page4_13} from '../pages/modul4/4_13/4_13Page';
+import {Page4_14} from '../pages/modul4/4_14/4_14Page';
+import {Page4_15} from '../pages/modul4/4_15/4_15Page';
+import {Page4_16} from '../pages/modul4/4_16/4_16Page';
 
 import {Page5_1} from '../pages/modul5/5_1/5_1Page';
 import {Page5_2} from '../pages/modul5/5_2/5_2Page';
@@ -56,6 +76,8 @@ import {Page5_6} from '../pages/modul5/5_6/5_6Page';
 import {Page5_7} from '../pages/modul5/5_7/5_7Page';
 import {Page5_8} from '../pages/modul5/5_8/5_8Page';
 import {Page5_9} from '../pages/modul5/5_9/5_9Page';
+import {Page5_10} from '../pages/modul5/5_10/5_10Page';
+import {Page5_11} from '../pages/modul5/5_11/5_11Page';
 
 import {Page6_1} from '../pages/modul6/6_1/6_1Page';
 import {Page6_2} from '../pages/modul6/6_2/6_2Page';
@@ -66,6 +88,13 @@ import {Page6_6} from '../pages/modul6/6_6/6_6Page';
 import {Page6_7} from '../pages/modul6/6_7/6_7Page';
 import {Page6_8} from '../pages/modul6/6_8/6_8Page';
 import {Page6_9} from '../pages/modul6/6_9/6_9Page';
+import {Page6_10} from '../pages/modul6/6_10/6_10Page';
+import {Page6_11} from '../pages/modul6/6_11/6_11Page';
+import {Page6_12} from '../pages/modul6/6_12/6_12Page';
+import {Page6_13} from '../pages/modul6/6_13/6_13Page';
+import {Page6_14} from '../pages/modul6/6_14/6_14Page';
+import {Page6_15} from '../pages/modul6/6_15/6_15Page';
+import {Page6_16} from '../pages/modul6/6_16/6_16Page';
 
 import {Page7_1} from '../pages/modul7/7_1/7_1Page';
 import {Page7_2} from '../pages/modul7/7_2/7_2Page';
@@ -96,6 +125,11 @@ import {Page9_6} from '../pages/modul9/9_6/9_6Page';
 import {Page9_7} from '../pages/modul9/9_7/9_7Page';
 import {Page9_8} from '../pages/modul9/9_8/9_8Page';
 import {Page9_9} from '../pages/modul9/9_9/9_9Page';
+import {Page9_10} from '../pages/modul9/9_10/9_10Page';
+import {Page9_11} from '../pages/modul9/9_11/9_11Page';
+import {Page9_12} from '../pages/modul9/9_12/9_12Page';
+import {Page9_13} from '../pages/modul9/9_13/9_13Page';
+import {Page9_14} from '../pages/modul9/9_14/9_14Page';
 
 import {Page10_1} from '../pages/modul10/10_1/10_1Page';
 import {Page10_2} from '../pages/modul10/10_2/10_2Page';
@@ -135,6 +169,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page2_7,
     Page2_8,
     Page2_9,
+    Page2_10,
+    Page2_11,
+    Page2_12,
+    Page2_13,
+    Page2_14,
+    Page2_15,
+    Page2_16,
+    Page2_17,
 
     Page3_1,
     Page3_2,
@@ -145,6 +187,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page3_7,
     Page3_8,
     Page3_9,
+    Page3_10,
+    Page3_11,
+    Page3_12,
+    Page3_13,
+    Page3_14,
 
     Page4_1,
     Page4_2,
@@ -155,6 +202,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page4_7,
     Page4_8,
     Page4_9,
+    Page4_10,
+    Page4_11,
+    Page4_12,
+    Page4_13,
+    Page4_14,
+    Page4_15,
+    Page4_16,
 
     Page5_1,
     Page5_2,
@@ -165,6 +219,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page5_7,
     Page5_8,
     Page5_9,
+    Page5_10,
+    Page5_11,
 
     Page6_1,
     Page6_2,
@@ -175,6 +231,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page6_7,
     Page6_8,
     Page6_9,
+    Page6_10,
+    Page6_11,
+    Page6_12,
+    Page6_13,
+    Page6_14,
+    Page6_15,
+    Page6_16,
 
     Page7_1,
     Page7_2,
@@ -205,6 +268,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page9_7,
     Page9_8,
     Page9_9,
+    Page9_10,
+    Page9_11,
+    Page9_12,
+    Page9_13,
+    Page9_14,
 
     Page10_1,
     Page10_2,
@@ -245,6 +313,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page2_7,
     Page2_8,
     Page2_9,
+    Page2_10,
+    Page2_11,
+    Page2_12,
+    Page2_13,
+    Page2_14,
+    Page2_15,
+    Page2_16,
+    Page2_17,
 
     Page3_1,
     Page3_2,
@@ -255,6 +331,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page3_7,
     Page3_8,
     Page3_9,
+    Page3_10,
+    Page3_11,
+    Page3_12,
+    Page3_13,
+    Page3_14,
 
     Page4_1,
     Page4_2,
@@ -265,6 +346,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page4_7,
     Page4_8,
     Page4_9,
+    Page4_10,
+    Page4_11,
+    Page4_12,
+    Page4_13,
+    Page4_14,
+    Page4_15,
+    Page4_16,
 
     Page5_1,
     Page5_2,
@@ -275,6 +363,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page5_7,
     Page5_8,
     Page5_9,
+    Page5_10,
+    Page5_11,
 
     Page6_1,
     Page6_2,
@@ -285,6 +375,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page6_7,
     Page6_8,
     Page6_9,
+    Page6_10,
+    Page6_11,
+    Page6_12,
+    Page6_13,
+    Page6_14,
+    Page6_15,
+    Page6_16,
 
     Page7_1,
     Page7_2,
@@ -315,6 +412,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Page9_7,
     Page9_8,
     Page9_9,
+    Page9_10,
+    Page9_11,
+    Page9_12,
+    Page9_13,
+    Page9_14,
 
     Page10_1,
     Page10_2,
