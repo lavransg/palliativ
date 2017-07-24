@@ -3,16 +3,55 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Beregne kroppsmasseindeks</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <h3>Beregne kroppsmasseindeks</h3>
 
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+    KMI (kroppsmasseindeks, det samme som BMI = Body Mass Index)
+<br><br>
+KMI er et grovt mål på over-/undervekt som helst benyttes sammen med annen informasjon.
+<br><br>
+KMI beregnes slik:
+<br><br>
+vekt (kg)                                        50 kg <br>    
+høyde (m) x høyde (m)           :           1,65m x 1,65m          = 18,4 kg/m2<br><br>
   </p>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <ion-list>
+  <ion-item>
+    <ion-label color="primary" fixed>høyde</ion-label>
+    <ion-input [(ngModel)]="height" type="number" (input)="updateBmi()" placeholder="cm"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" fixed>vekt</ion-label>
+    <ion-input [(ngModel)]="weight" type="number" (input)="updateBmi()" placeholder="kg"></ion-input>
+  </ion-item>
+   <ion-item>
+    <ion-label color="primary" center>BMI : {{this.bmi}}</ion-label>
+  </ion-item>
+  </ion-list>
+
+  <p>
+    BMI-kategorier for personer over 70 år <br><br>
+    <b>Under 22:</b> Undervektig<br>
+    <b>22 - 27:</b> Normal vekt<br>
+    <b>over 27:</b> Overvekt<br>
+    
+  </p>
+
+    <p>
+    BMI-kategorier for personer mellom 18 og 70 år <br><br>
+    <b>Under 18.5:</b> Undervektig<br>
+    <b>18.5 - 24.9:</b> Normal vekt<br>
+    <b>25 - 29.9:</b> Overvektig<br>
+    <b>30 - 35.9:</b> Fedme, klasse 1<br>
+    <b>35 - 39.9:</b> Fedme, klasse 2<br>
+    <b>40 og over:</b> Fedme, klasse 3<br>
+  </p>
+  
+
 </ion-content>
